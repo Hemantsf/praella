@@ -1,0 +1,48 @@
+.inputFile {
+    /* border: 1px solid #ebebeb; */
+    background-color: #f6f6f6;
+    outline: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 12px;
+    /* width: 100%; */
+    box-shadow: none;
+    display: flex;
+    /* border-radius: 30px; */
+
+  }
+
+  .inputFile:focus {
+    /* border-color: @themeColor; */
+    box-shadow: none;
+  }
+
+  .inputFile::placeholder {
+    color: #7c7c7c;
+  }
+
+  .inputFile::-moz-placeholder {
+    color: #7c7c7c;
+  }
+
+  .inputFile label {
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    border: none;
+    color: #7c7c7c;
+    cursor: pointer;
+    text-align: left;
+
+    -webkit-border-radius: 5px;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+  }
+
+  .inputFile [type="file"] {
+    display: none;
+  }
