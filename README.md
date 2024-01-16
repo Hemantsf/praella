@@ -34,7 +34,3 @@ I estimated approximately 6 Hour to complete the test.
 ## Pending Items
 
 As of now, according to me i don't fing anything pending  
-
-## Sample Data
-
-To test the application in an isolated environment, use the provided SQL file: [filename.sql].
