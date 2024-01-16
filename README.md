@@ -14,12 +14,13 @@ Praella Test Assignment
 
 1. Clone the repository: `git clone https://github.com/Hemantsf/praella.git`
 2. Configure environment variables: Create a `.env` file and add necessary configuration details.
-3. Run `php artisan migrate`
-4. Run `php artisan db:seed --class=CreateAdminUserSeeder` for admin user
+3. Create Database 
+4. Run `php artisan migrate`
+5. Run `php artisan db:seed --class=CreateAdminUserSeeder` for admin user
 
 
 ## Login Credentials
-Email : Praella@gmail.com
+Email : praella@gmail.com
 Password : 12345678
 
 
